@@ -1,0 +1,156 @@
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+
+body {
+  background-color: #FCFDFC;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+
+.app, .viewTasks {
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 31px;
+  line-height: 40px;
+  font-weight: 600;
+  color:#4c5357;
+  margin: 6rem 0;
+}
+
+h2 {
+  color: #5e8396;
+  font-size: 21px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 3rem 0;
+}
+
+.form {
+  margin: 50px auto;
+  width: 90%;
+  align-items: center;
+}
+
+.tasks {
+  margin: auto;
+  text-align: left;
+  width: 80%;
+}
+
+
+.content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2; 
+}
+
+.content .form-control {
+  height: 50px; 
+}
+
+.content.form-control:focus {
+  border: 2px solid #243c4f;
+}
+
+.input-group-btn {
+  height: 50px;
+  font-weight:600;
+  position: relative;
+}
+
+.taskContent {
+  width: 80%;
+  height: 3.5rem;
+  padding: 10px;
+  background-color: #F3F0F0;
+}
+
+.deleteTask {
+  float: right;
+}
+
+
+/* Register page */
+.send-button{
+  background: #54C7C3;
+  width:100%;
+  font-weight: 600;
+  color:#fff;
+  padding: 8px 25px;
+}
+
+.my-input{
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: text;
+  padding: 8px 10px;
+  transition: border .1s linear;
+}
+.header-title{
+  margin: 5rem 0;
+}
+.altSign {
+  padding: 8px 10px;
+}
+
+/* Alert */
+
+.alert {
+  padding: 0.8rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background: var(--light-color);
+  color: #333;
+}
+
+.alert-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.alert-light {
+  background: var(--light-color);
+  color: #333;
+}
+
+.alert-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.alert-danger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+.alert-success {
+  background: var(--success-color);
+  color: #fff;
+}
+
+.alert-white {
+  background: #fff;
+  color: #333;
+  border: #ccc solid 1px;
+}
+
+
+@media screen and (max-width:480px){
+  .registerh1 {
+      font-size: 26px;
+  }
+  .registerh2 {
+  font-size: 20px;
+  }
+}
