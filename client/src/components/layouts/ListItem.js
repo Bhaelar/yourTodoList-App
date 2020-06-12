@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 
 export const ListItem = ({ deleteTask, auth, task: { _id, task } }) => {
 	return (
-		<div className="container app">
+		<div className="container listItems">
 			<div className="taskContent d-flex row col-sm-12 mx-auto">
 			<div className="p2 mr-auto">
 				<p>{task}</p>
