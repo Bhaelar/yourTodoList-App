@@ -23,7 +23,7 @@ export const Home = ({ getTasks, task: { tasks } }) => {
 						{tasks.length > 0 ? (
 							tasks.map((task) => <ListItem key={task._id} className="row col-md-12" task={task} />)
 						) : (
-							<p>You have no Scheduled Tasks</p>
+							<p className="content">You have no Scheduled Tasks</p>
 						)}
 					</div>{' '}
 				</div>{' '}
